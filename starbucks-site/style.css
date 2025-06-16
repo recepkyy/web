@@ -1,0 +1,93 @@
+/* Başlıklar için renk */
+h1 {
+  color: rgb(24, 131, 33);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h2, h3 {
+  color: #3b05fc;  /* Kahverengi ton */
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* Liste elemanları */
+ul li {
+  color: #353133;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+/* Tablo düzeni */
+ table {
+  width: 30%;
+  height: 150px;
+  margin-left: 920px;
+  border-collapse: collapse;
+  font-family: Verdana, sans-serif;
+}
+
+table, th, td {
+  border: 2px solid #0783079c;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Link stili */
+a {
+  display: block;
+  text-align: center;
+  margin: 20px 0;
+  font-weight: bold;
+  color: rgb(133, 178, 180);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Resim düzeni */
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #9ea3a1;
+  color: rgb(32, 139, 32);
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #005c35;
+}
+body {
+  animation: fadeIn 1.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+tr td {
+  color: rgb(48, 63, 150);
+}
+
+body{
+
+background-color: white;
+}
+
+
